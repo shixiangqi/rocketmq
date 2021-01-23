@@ -79,6 +79,7 @@ public class NamesrvController {
 
     public boolean initialize() {
 
+        //根据nameServConfig的KvConfigPath路径下加载k-v配置
         this.kvConfigManager.load();
 
         this.remotingServer = new NettyRemotingServer(this.nettyServerConfig, this.brokerHousekeepingService);
