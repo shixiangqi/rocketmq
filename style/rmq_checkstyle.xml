@@ -61,10 +61,10 @@
         <property name="format" value="@taobao"/>
         <property name="message" value="Recommended remove @taobao keyword!"/>
     </module>
-    <module name="RegexpSingleline">
-        <property name="format" value="@author"/>
-        <property name="message" value="Recommended remove @author tag in javadoc!"/>
-    </module>
+<!--    <module name="RegexpSingleline">-->
+<!--        <property name="format" value="@author"/>-->
+<!--        <property name="message" value="Recommended remove @author tag in javadoc!"/>-->
+<!--    </module>-->
 
 <!--    <module name="RegexpSingleline">-->
 <!--        <property name="format"-->
