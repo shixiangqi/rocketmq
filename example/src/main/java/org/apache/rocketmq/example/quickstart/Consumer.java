@@ -27,7 +27,7 @@ public class Consumer {
     public static void main(String[] args) throws MQClientException {
 
         DefaultMQPushConsumer consumer = new DefaultMQPushConsumer("consumer-group-stone");
-        consumer.setNamesrvAddr("127.0.0.1:9301");
+        consumer.setNamesrvAddr("127.0.0.1:9876");
         consumer.setConsumeFromWhere(ConsumeFromWhere.CONSUME_FROM_FIRST_OFFSET);
         // subExpression 是消息订阅的tag，*表示全部，多个用||隔开
         consumer.subscribe("OrderCreate", "dev");

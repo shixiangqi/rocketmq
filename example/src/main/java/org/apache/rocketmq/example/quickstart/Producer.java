@@ -28,7 +28,7 @@ public class Producer {
 
         DefaultMQProducer producer = new DefaultMQProducer("producer-group-stone");
         //ip:port;ip:port
-        producer.setNamesrvAddr("127.0.0.1:9301");
+        producer.setNamesrvAddr("127.0.0.1:9876");
         producer.setInstanceName("producer-stone");
         producer.start();
 
